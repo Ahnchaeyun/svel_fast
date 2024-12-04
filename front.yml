@@ -13,7 +13,7 @@ spec:
         app: front-app
     spec:
       containers:
-        - name: svelte-app-container
+        - name: front-con
           image: yunchae02/front:1
           ports:
             - containerPort: 80
