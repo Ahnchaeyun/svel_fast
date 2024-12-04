@@ -13,7 +13,8 @@ ADD . .
 # 소스코드 복사
 
 RUN npm run build
-# 빌드를 하면 dist폴더에 정적파일 생성
+# 빌드를 하면 dist폴더에 정적파일 생성 = html, css, js
+# 정적파일은 nginx와 같은 웹 서버가 존재하면 동작
 
 FROM nginx:alpine
 
